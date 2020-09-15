@@ -16,6 +16,14 @@ const productRouter = {
             inNav: true,
             icon: 'iconfont icon-tushuguanli',
         },
+        {
+            title: '商品库',
+            type: 'view',
+            route: '/product/product',
+            filePath: 'views/product/product/List.vue',
+            inNav: true,
+            icon: 'iconfont icon-tushuguanli',
+        },
     ],
 }
 
